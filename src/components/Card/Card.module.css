@@ -1,0 +1,53 @@
+.container {
+  margin: 20px;
+}
+
+.card {
+  width: 280px;
+  height: 380px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    to top,
+    rgb(5, 5, 5) 0%,
+    rgba(0, 0, 0, 0.808) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 10px;
+  color: #fff;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card__rating {
+  font-size: 14px;
+}
+
+.card__genrebox {
+  font-size: 14px;
+}

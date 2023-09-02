@@ -1,0 +1,153 @@
+.pageContainer {
+  background-color: #2c2f48;
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  background-color: #f8f2f2;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 15px;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+.input[type="text"],
+.input[type="date"],
+.input[type="number"],
+.input[type="button"] {
+  width: 100%;
+  max-width: 300px;
+}
+
+.selectcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.selectoption {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.selectoption button {
+  border: none;
+  background-color: transparent;
+  background-color: red;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.selectoption p {
+  margin-right: 10px;
+}
+
+.select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.genres-list,
+.platforms-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genres-item,
+.platforms-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color: #e4e4e4;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.genres-item p,
+.platforms-item p {
+  margin-right: 5px;
+}
+
+.genres-item button,
+.platforms-item button {
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 8px 16px;
+  }
+}
